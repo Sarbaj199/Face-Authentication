@@ -249,4 +249,4 @@ def verify_qr():
         return f"<h3>❌ QR Code mismatch. Try again!</h3><a href='/login'>Back to Login</a>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
